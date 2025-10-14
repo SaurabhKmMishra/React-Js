@@ -13,8 +13,6 @@ Each folder is a small step in the process — covering topics like components, 
 
 ---
 
-## 🧠 Concepts Covered · 🎯 Goals · 🛠️ Tech Stack · 📸 Preview · 🙌 Acknowledgements
-
 ### 🧠 Concepts Covered
 - JSX and Virtual DOM  
 - Functional Components  
@@ -41,10 +39,6 @@ Each folder is a small step in the process — covering topics like components, 
 - **Vite / Create React App**  
 - **Git & GitHub** for version control
 
----
-
-### 📸 Preview
-_(You can add screenshots or short descriptions of each project here later.)_
 
 ---
 
@@ -52,7 +46,7 @@ _(You can add screenshots or short descriptions of each project here later.)_
 - [React Official Docs](https://react.dev)  
 - [freeCodeCamp](https://www.freecodecamp.org/)  
 - [MDN Web Docs](https://developer.mozilla.org/)  
-- and every awesome YouTube channel & blog that helped along the way 🚀
+- and every awesome YouTube channels like: [chai aur code](https://www.youtube.com/@chaiaurcode) and [anurag singh procodrr](https://www.youtube.com/@procodrr) etc & blogs that helped along the way 🚀
 
 ---
 
