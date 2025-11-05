@@ -1,14 +1,18 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 
 /* :> We wants to make a counter which should be only changeable in range 0-20(both inclusive) as per counting values. */
 
 
+/* In React.js, Hooks are special functions that let you use state and other React features in functional components — without writing class components. 
+
+:> They were introduced in React 16.8 and have since become the standard way to manage logic, state, and side effects in React.*/
+
+
 function App() {
   
-  let [counter,setCounter] = useState(10)
+  let [counter,setCounter] = useState(10) // useState() is a hook
+  
   // here, counter is the variable while the setCounter is the fun. responsible for it's updation, and these names may be different.
   // also '10' in the useState rep. the default value of the var counter.
 
@@ -23,6 +27,8 @@ function App() {
     
     // setCounter(counter+1) // another mthd
 
+
+         // but to provide range
 
     if(counter+1 > 20){
       return;
