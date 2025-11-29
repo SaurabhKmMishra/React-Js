@@ -1,0 +1,6 @@
+/* index.css (or whatever your main CSS is) */
+@import "tailwindcss";
+
+/* This line tells Tailwind: 
+   “apply dark: classes when .dark (or any child of .dark) is present” */
+@custom-variant dark (&:where(.dark, .dark *));
