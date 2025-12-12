@@ -50,3 +50,13 @@ createRoot(document.getElementById('root')).render(
     // <App/>
 
 )
+
+
+/*
+
+“In JSX, when we use parentheses (), the arrow function returns the JSX implicitly, so we don’t need a return keyword. 
+
+But when we use curly braces {}, we must explicitly write return because there's no automatic return.”
+
+
+*/
