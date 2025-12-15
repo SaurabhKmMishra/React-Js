@@ -1,0 +1,20 @@
+:> Since, wkt 'React' is a library and if we wants it to work on browser we uses 'React-Dom' along with React.
+
+:> And for mobile we can use 'React-Native' with React.
+
+:> Same is the case with redux viz. an independent 'State Management Library'. And it can be used with vue or any other js framework/library as well.
+
+:> So, in case of the context API it was like to avoid prop-drilling and store all props in a center and get it wherever required using a hook, we created this hook with name use and wrapped it with a provider.But the context API came very later, before it several development was going on.
+
+:> Also, like as react here in redux we have to use Redux(viz. obvious the core library) along with React-Redux(which acts as a bridge) if we wants redux to use in React.
+
+:> Before redux 'Flux' was an architecture designed by fb for the resolution of the problem of Sate management and dataFlow(means a structure for how to store data and how to use it). 
+
+:> For ex. if u remember in case of useContext we need to spread the array before it's updation so that i may not loose the old values. In case we forgot we'll override all of the older values. Hence a good data flow mechanism was quiet required to consider in flux.
+
+:> Still the data flow was not that good in flux, as a result of which redux was introduced which was a better version of flux, which was even not upto the mark still very better and here terms like: Single Source of truth(means a single store should be there) were introduced.
+
+:> Also, a practice got very famous which was "Never mutate/modify your state" and "Changes should be only made as pure functions(viz. through  reducers only)".
+
+:> Also, earlier Redux had complex setup steps and required manually adding middleware like redux-thunk, which made development harder. Redux Toolkit was created to simplify this setup, reduce boilerplate, and include best practices (like thunk middleware) by default.
+
